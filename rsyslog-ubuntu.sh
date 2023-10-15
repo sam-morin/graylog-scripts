@@ -22,5 +22,5 @@ echo "*.warning @${GRAYLOG_SERVER_IP}:1514" | sudo tee -a "$RSYSLOG_CONF" > /dev
 # Restart rsyslog
 sudo service rsyslog restart
 
-echo "rsyslog has been configured to forward logs to Graylog at ${GRAYLOG_SERVER_IP}:514."
+echo "rsyslog has been configured to forward logs to Graylog at ${GRAYLOG_SERVER_IP}:1514."
 echo "Please verify that Graylog is correctly configured to receive syslog messages."
