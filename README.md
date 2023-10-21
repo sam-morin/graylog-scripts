@@ -1,4 +1,8 @@
-# graylog-scripts
+# Graylog helpful scripts and config files
+
+There should be more bootstrapping and setup scripts and workflows available with Graylog and sadly there is not. This is merely an accidental attempt at that.
+
+## Graylog on Ubuntu with rsyslog:
 
 Deploy on Ubuntu (prompt for sudo)
 ```shell
