@@ -2,6 +2,8 @@
 
 There should be more bootstrapping and setup scripts/workflows available with Graylog and sadly there is not. This is merely an accidental attempt at that.
 
+<br/>
+
 ## Prompt for sudo
 Deploy on Ubuntu:
 ```shell
