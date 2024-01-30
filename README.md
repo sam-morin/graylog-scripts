@@ -1,8 +1,9 @@
 # Graylog helpful scripts and config files
 
 There should be more bootstrapping and setup scripts/workflows available with Graylog and sadly there is not. This is merely an accidental attempt at that.
+
 <br/>
-<br/>
+
 ## Prompt for sudo
 Deploy rsyslog on Ubuntu:
 ```shell
@@ -14,7 +15,7 @@ curl -sSL https://raw.githubusercontent.com/sam-morin/graylog-scripts/main/rsysl
 ```
 
 <br/>
-<br/>
+
 ## Don't prompt for sudo
 Deploy rsyslog on Ubuntu:
 ```shell
