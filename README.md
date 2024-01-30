@@ -4,7 +4,8 @@ There should be more bootstrapping and setup scripts/workflows available with Gr
 
 ## Graylog on Ubuntu with rsyslog:
 
-Deploy on Ubuntu (prompt for sudo)
+### Prompt for sudo
+Deploy on Ubuntu:
 ```shell
 curl -sSL https://raw.githubusercontent.com/sam-morin/graylog-scripts/main/rsyslog-ubuntu.sh | bash
 ```
@@ -13,7 +14,8 @@ Using custom server and port as arguments:
 curl -sSL https://raw.githubusercontent.com/sam-morin/graylog-scripts/main/rsyslog-ubuntu.sh | bash -s "10.10.5.3" "514"
 ```
 
-Deploy on Ubuntu (don't prompt for sudo, user is already root (in the case sudo doesn't exist on the system)):
+### Don't prompt for sudo
+Deploy on Ubuntu:
 ```shell
 curl -sSL https://raw.githubusercontent.com/sam-morin/graylog-scripts/main/rsyslog-ubuntu-root.sh | bash
 ```
