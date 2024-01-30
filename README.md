@@ -15,7 +15,6 @@ curl -sSL https://raw.githubusercontent.com/sam-morin/graylog-scripts/main/rsysl
 ```
 
 <br/>
-<br/>
 
 ## Don't prompt for sudo
 Deploy rsyslog on Ubuntu:
